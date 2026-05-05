@@ -1,15 +1,13 @@
-
 `define CYCLE_200S  28'd249_999_999  // 2秒
 `define CYCLE_100S  28'd124_999_999  // 1秒
-`define CYCLE_050S  28'd62_499_999   // 0.5秒
-`define CYCLE_025S  28'd31_249_999   // 0.25秒
-`define CYCLE_50    25'd31249999     // 50ms 的防彈跳計數值
+`define CYCLE_050S_t   28'd62_499_999    // 0.5秒 (125M / 2 - 1)
+`define CYCLE_025S_t   28'd31_249_999    // 0.25秒 (125M / 4 - 1)
 
 
 module control_Marquee(
     input clk,
     input rst,
-    input  [1:0] slc,     
+    input  [1:0] btn,     
     output [3:0] led,     
     output [3:0] modeLed  
 );
@@ -20,6 +18,7 @@ module control_Marquee(
     localparam speed3 = 2'd3; 
 
     localparam A = 3'd0, B = 3'd1, C = 3'd2, D = 3'd3, E = 3'd4, F = 3'd5;
+    
     
     reg [2:0] cs, ns;
     reg [27:0] timer;     
@@ -33,7 +32,7 @@ module control_Marquee(
     BTN_DEB   deb_btn0 (
         .clk(clk), 
         .rst(rst), 
-        .btn(slc[0]),     
+        .btn(btn[0]),     
         .btn_deb(slc_deb[0])
     );
     
@@ -48,7 +47,7 @@ module control_Marquee(
     BTN_DEB   deb_btn1 (
         .clk(clk), 
         .rst(rst), 
-        .btn(slc[1]),     
+        .btn(btn[1]),     
         .btn_deb(slc_deb[1])
     );
     Pulse_GEN pul_btn1 (
@@ -80,7 +79,7 @@ module control_Marquee(
     wire [27:0] current_limit = 
         (mode == speed0) ? `CYCLE_200S :
         (mode == speed1) ? `CYCLE_100S :
-        (mode == speed2) ? `CYCLE_050S : `CYCLE_025S;
+        (mode == speed2) ? `CYCLE_050S_t : `CYCLE_025S_t;
                 
     wire time_up = (timer >= current_limit);
 

@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "D:/LogicDesignLab/Lab5/Lab5/Lab5.runs/impl_1/control_Marquee.tcl"
+  variable script "D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.runs/impl_1/control_Marquee.tcl"
   variable category "vivado_impl"
 }
 
@@ -107,7 +107,7 @@ set rc [catch {
   set_param general.usePosixSpawnForFork 1
   set_param chipscope.maxJobs 5
   set_param xicom.use_bs_reader 1
-  set_param runs.launchOptions { -jobs 6  }
+  set_param runs.launchOptions { -jobs 8  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7z020clg400-1
   set_property board_part_repo_paths {C:/Users/user/AppData/Roaming/Xilinx/Vivado/2025.2/xhub/board_store/xilinx_board_store} [current_project]
@@ -116,15 +116,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir D:/LogicDesignLab/Lab5/Lab5/Lab5.cache/wt [current_project]
-  set_property parent.project_path D:/LogicDesignLab/Lab5/Lab5/Lab5.xpr [current_project]
-  set_property ip_output_repo D:/LogicDesignLab/Lab5/Lab5/Lab5.cache/ip [current_project]
+  set_property webtalk.parent_dir D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.cache/wt [current_project]
+  set_property parent.project_path D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.xpr [current_project]
+  set_property ip_output_repo D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet D:/LogicDesignLab/Lab5/Lab5/Lab5.runs/synth_1/control_Marquee.dcp
+  add_files -quiet D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.runs/synth_1/control_Marquee.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc {{D:/LogicDesignLab/Lab5/Lab5/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc}}
+  read_xdc {{D:/LogicDesignLab/Lab5/Ray/Lab5/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc}}
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

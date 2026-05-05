@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sim_1/new/tb_MC_top.v,1777967415,verilog,,,,tb_mc_top,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/BTN_DED.v,1777972392,verilog,,D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/MC.v,,BTN_DEB,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/Dual-speed_Marquee.v,1777461945,verilog,,D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/MC.v,,DualSpeed_Marquee,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/MC.v,1777464460,verilog,,D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/MC_Top.v,,MC,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/MC_Top.v,1777968168,verilog,,D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/Pluse_GEN.v,,MC_TOP,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/Marquee.v,1777484513,verilog,,D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/Pluse_GEN.v,,Marquee,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/Pluse_GEN.v,1777484245,verilog,,D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sim_1/new/tb_MC_top.v,,Pulse_GEN,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sources_1/new/control_Marquee.v,1777967146,verilog,,D:/LogicDesignLab/Lab5/Ray/Lab5/Lab5.srcs/sim_1/new/tb_MC_top.v,,control_Marquee,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,

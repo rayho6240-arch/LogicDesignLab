@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date                      : Thu Apr 30 19:30:25 2026
+| Date                      : Tue May  5 17:57:44 2026
 | Host                      : LAPTOP-L8B3PG7A running 64-bit major release  (build 9200)
 | Command                   : report_io -file control_Marquee_io_placed.rpt
 | Design                    : control_Marquee
@@ -113,8 +113,8 @@ Table of Contents
 | D16        |             |            | PS_MIO46_501            | PSS IO      |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | D17        |             |            | GND                     | GND         |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | D18        |             | High Range | IO_L3N_T0_DQS_AD1N_35   | User IO     |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| D19        | slc[0]      | High Range | IO_L4P_T0_35            | INPUT       | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
-| D20        | slc[1]      | High Range | IO_L4N_T0_35            | INPUT       | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| D19        | btn[0]      | High Range | IO_L4P_T0_35            | INPUT       | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| D20        | btn[1]      | High Range | IO_L4N_T0_35            | INPUT       | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | E1         |             |            | PS_DDR_DQ7_502          | PSS IO      |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | E2         |             |            | PS_DDR_DQ8_502          | PSS IO      |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | E3         |             |            | PS_DDR_DQ9_502          | PSS IO      |             |         |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1777548532">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1777974851">
   <File Type="PA-TCL" Name="control_Marquee.tcl"/>
   <File Type="REPORTS-TCL" Name="control_Marquee_reports.tcl"/>
   <File Type="INIT-TIMING" Name="control_Marquee_timing_summary_init.rpt"/>
@@ -56,12 +56,12 @@
   <File Type="ROUTE-RQS-PB" Name="control_Marquee_rqs_routed.pb"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="control_Marquee_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="control_Marquee_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DualSpeed_Marquee_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DualSpeed_Marquee_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DualSpeed_Marquee_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="DualSpeed_Marquee_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="DualSpeed_Marquee_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="DualSpeed_Marquee_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MC_TOP_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MC_TOP_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MC_TOP_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="MC_TOP_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="MC_TOP_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="MC_TOP_bus_skew_postroute_physopted.rpx"/>
   <File Type="NOC_TRAFFIC_SPEC_FILE" Name="control_Marquee.nts"/>
   <File Type="NOC_SOLUTION_FILE" Name="control_Marquee.ncr"/>
   <File Type="BG-BIT" Name="control_Marquee.bit"/>
@@ -115,7 +115,7 @@
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/Marquee.v">
+    <File Path="$PSRCDIR/sources_1/new/Dual-speed_Marquee.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -123,7 +123,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Dual-speed_Marquee.v">
+    <File Path="$PSRCDIR/sources_1/new/Marquee.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>

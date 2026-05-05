@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module MC_Top(
+module MC_TOP(
 
     input clk, rst,
     input [1:0] btn,

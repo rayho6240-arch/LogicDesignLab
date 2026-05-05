@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Thu Apr 30 19:29:44 2026
+| Date         : Tue May  5 17:56:08 2026
 | Host         : LAPTOP-L8B3PG7A running 64-bit major release  (build 9200)
 | Command      : report_utilization -file control_Marquee_utilization_synth.rpt -pb control_Marquee_utilization_synth.pb
 | Design       : control_Marquee
@@ -31,8 +31,8 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |   89 |     0 |          0 |     53200 |  0.17 |
-|   LUT as Logic          |   89 |     0 |          0 |     53200 |  0.17 |
+| Slice LUTs*             |  111 |     0 |          0 |     53200 |  0.21 |
+|   LUT as Logic          |  111 |     0 |          0 |     53200 |  0.21 |
 |   LUT as Memory         |    0 |     0 |          0 |     17400 |  0.00 |
 | Slice Registers         |   92 |     0 |          0 |    106400 |  0.09 |
 |   Register as Flip Flop |   92 |     0 |          0 |    106400 |  0.09 |
@@ -152,13 +152,13 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | FDCE     |   91 |        Flop & Latch |
-| LUT4     |   80 |                 LUT |
+| LUT5     |   53 |                 LUT |
 | LUT2     |   39 |                 LUT |
+| LUT4     |   30 |                 LUT |
 | CARRY4   |   23 |          CarryLogic |
 | OBUF     |    8 |                  IO |
 | LUT6     |    8 |                 LUT |
 | IBUF     |    4 |                  IO |
-| LUT5     |    3 |                 LUT |
 | LUT3     |    2 |                 LUT |
 | FDPE     |    1 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
