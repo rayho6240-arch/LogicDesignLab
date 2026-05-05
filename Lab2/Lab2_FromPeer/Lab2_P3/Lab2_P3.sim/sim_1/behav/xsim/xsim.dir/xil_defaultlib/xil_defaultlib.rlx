@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.srcs/sources_1/imports/practice3/lab2_15bits_encoder_tb.v,1773671257,verilog,,,,lab2_hex_15bits_encoder_tb,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.srcs/sources_1/imports/practice3/lab2_9bits_encoder_tb.v,1773671257,verilog,,,,lab2_9bits_encoder_tb,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.srcs/sources_1/new/Encoder_15.v,1773678099,verilog,,C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.srcs/sources_1/imports/practice3/lab2_15bits_encoder_tb.v,,Encoder_15,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.srcs/sources_1/new/Encoder_9.v,1773677547,verilog,,C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.srcs/sources_1/imports/practice3/lab2_9bits_encoder_tb.v,,Encoder_9,,,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,

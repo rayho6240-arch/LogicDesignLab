@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/Lab2/Practice3_2/Encoder_15/Encoder_15.srcs/sources_1/new/Encoder_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Encoder_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/Lab2/Lab2_testbench/practice3/lab2_15bits_encoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_hex_15bits_encoder_tb
+WARNING: [VRFC 10-3248] data object 'i' is already declared [D:/LogicDesignLab/Lab2/Lab2_testbench/practice3/lab2_15bits_encoder_tb.v:56]
+WARNING: [VRFC 10-9364] second declaration of 'i' is ignored [D:/LogicDesignLab/Lab2/Lab2_testbench/practice3/lab2_15bits_encoder_tb.v:56]
+WARNING: [VRFC 10-3248] data object 'fail' is already declared [D:/LogicDesignLab/Lab2/Lab2_testbench/practice3/lab2_15bits_encoder_tb.v:57]
+WARNING: [VRFC 10-9364] second declaration of 'fail' is ignored [D:/LogicDesignLab/Lab2/Lab2_testbench/practice3/lab2_15bits_encoder_tb.v:57]

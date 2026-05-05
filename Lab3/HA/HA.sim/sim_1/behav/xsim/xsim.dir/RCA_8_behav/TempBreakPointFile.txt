@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+47,true,"D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/FA.v"

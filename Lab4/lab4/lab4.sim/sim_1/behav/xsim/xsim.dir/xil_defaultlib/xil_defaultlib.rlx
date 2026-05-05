@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/LogicDesignLab/Lab4/lab4/lab4.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+,,,,,,Gated_D_Latch_tb,,,,,,,,
+D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sim_1/new/Gated_SR_Latch_tb.v,1775306665,verilog,,,,Gated_SR_Latch_tb,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sources_1/new/Gated D_Latch.v,1775357478,verilog,,D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sources_1/new/SR_Latch.v,,Gated_D_Latch,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sources_1/new/Gated_SR_Latch.v,1775306801,verilog,,D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sources_1/new/SR_Latch.v,,Gated_SR_Latch,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sources_1/new/SR_Latch.v,1775292918,verilog,,D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sim_1/new/Gated_D_Latch_tb.v,,SR_Latch,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,

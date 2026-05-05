@@ -1,0 +1,28 @@
+Time resolution is 1 ps
+
+
+* Simulation Start !! *
+Time=0 ns | En=0, D=0 | Q=x, Q_n=x
+Time=5000 ns | En=0, D=1 | Q=x, Q_n=x
+Time=7000 ns | En=1, D=1 | Q=1, Q_n=0
+Time=10000 ns | En=1, D=0 | Q=0, Q_n=1
+Time=15000 ns | En=1, D=1 | Q=1, Q_n=0
+Time=18000 ns | En=0, D=1 | Q=1, Q_n=0
+Time=20000 ns | En=0, D=0 | Q=1, Q_n=0
+Time=25000 ns | En=0, D=1 | Q=1, Q_n=0
+Time=30000 ns | En=0, D=0 | Q=1, Q_n=0
+Time=32000 ns | En=1, D=0 | Q=0, Q_n=1
+Time=35000 ns | En=1, D=1 | Q=1, Q_n=0
+Time=40000 ns | En=1, D=0 | Q=0, Q_n=1
+Time=45000 ns | En=1, D=1 | Q=1, Q_n=0
+Time=47000 ns | En=0, D=1 | Q=1, Q_n=0
+Time=50000 ns | En=0, D=0 | Q=1, Q_n=0
+Time=55000 ns | En=0, D=1 | Q=1, Q_n=0
+Time=57000 ns | En=1, D=1 | Q=1, Q_n=0
+Time=60000 ns | En=1, D=0 | Q=0, Q_n=1
+Time=65000 ns | En=1, D=1 | Q=1, Q_n=0
+Time=70000 ns | En=1, D=0 | Q=0, Q_n=1
+Time=75000 ns | En=1, D=1 | Q=1, Q_n=0
+* Simulation End !! *
+
+$finish called at time : 77 ns : File "D:/LogicDesignLab/Lab4/lab4/lab4.srcs/sim_1/new/Gated_D_Latch_tb.v" Line 41

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice2_2/Decoder_7S2/Decoder_7S2.srcs/sources_1/new/Decoder_7S2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder_7S2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice3_2/Encoder_15/Encoder_15.srcs/sources_1/new/Encoder_15.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Encoder_15
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice4/top15_2_1/top15_2_1.srcs/sources_1/new/top15_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_15_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice4/top15_2_1/top15_2_1.srcs/sim_1/new/top15_2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_top_15_2_tb
+WARNING: [VRFC 10-3248] data object 'i' is already declared [D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice4/top15_2_1/top15_2_1.srcs/sim_1/new/top15_2_tb.v:62]
+WARNING: [VRFC 10-9364] second declaration of 'i' is ignored [D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice4/top15_2_1/top15_2_1.srcs/sim_1/new/top15_2_tb.v:62]
+WARNING: [VRFC 10-3248] data object 'fail' is already declared [D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice4/top15_2_1/top15_2_1.srcs/sim_1/new/top15_2_tb.v:63]
+WARNING: [VRFC 10-9364] second declaration of 'fail' is ignored [D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice4/top15_2_1/top15_2_1.srcs/sim_1/new/top15_2_tb.v:63]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/Lab2/Lab2_FromMe/Practice4/top15_2_1/top15_2_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

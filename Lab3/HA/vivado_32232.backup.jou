@@ -1,0 +1,133 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Apr 14 21:44:18 2026
+# Process ID         : 32232
+# Current directory  : D:/LogicDesignLab/Lab3/HA
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent34080 D:\LogicDesignLab\Lab3\HA\HA.xpr
+# Log file           : D:/LogicDesignLab/Lab3/HA/vivado.log
+# Journal file       : D:/LogicDesignLab/Lab3/HA\vivado.jou
+# Running On         : LAPTOP-L8B3PG7A
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 34046 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36194 MB
+# Available Virtual  : 16272 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/LogicDesignLab/Lab3/HA/HA.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top PFA [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top PFA [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source PFA.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_sim
+close [ open D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_4.v w ]
+add_files D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_4.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_CLA_4 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CLA_4 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source tb_CLA_4.tcl
+run all
+close_sim
+close [ open D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_64.v w ]
+add_files D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_64.v
+update_compile_order -fileset sources_1
+close [ open D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_16.v w ]
+add_files D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_16.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CLA_16 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CLA_16 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CLA_64 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_CLA_64 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_CLA_64.tcl
+run all
+close_sim
+close [ open D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/Adder_8_OV.v w ]
+add_files D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/Adder_8_OV.v
+update_compile_order -fileset sources_1
+close [ open D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/checkOV.v w ]
+add_files D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/checkOV.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Adder_8_OV [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_adder_8_ov [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_adder_8_ov.tcl
+run all
+close_sim
+launch_simulation
+source tb_adder_8_ov.tcl
+close_sim
+launch_simulation
+source tb_adder_8_ov.tcl
+run all
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+launch_simulation
+source tb_adder_8_ov.tcl
+close_sim

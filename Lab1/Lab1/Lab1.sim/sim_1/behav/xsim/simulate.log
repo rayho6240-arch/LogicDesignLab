@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+----------------------
+-- Simulation Start --
+----------------------
+
+
+
+
+        ****************************    _._     _,-'""`-._        
+        **  Congratulations !!    **   (,-.`._,'(       |\`-/|     
+        **  Simulation1 PASS!!    **       `-.-' \ )-`( , o o)     
+        ****************************             `-    \`_`"'-    
+
+
+$finish called at time : 2560 ns : File "D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/imports/LL2024_Lab1/Practice3/tb_top_4.v" Line 77

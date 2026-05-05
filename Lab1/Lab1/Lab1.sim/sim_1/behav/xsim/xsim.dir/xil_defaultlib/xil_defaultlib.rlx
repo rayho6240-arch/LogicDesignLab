@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.sim/sim_1/behav/xsim/glbl.v,1756381830,verilog,,,,glbl,,,,,,,,
+D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/imports/LL2024_Lab1/Practice3/tb_top_4.v,1773044516,verilog,,,,tb_top_4,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/new/CB_Demux_1to4.v,1773134768,verilog,,D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/new/Demux_1to2.v,,CB_Demux_1to4,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/new/Demux_1to2.v,1773134003,verilog,,D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/new/GL_Mux_4to1.v,,Demux_1to2,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/new/GL_Mux_4to1.v,1773065132,verilog,,D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/new/top_4.v,,GL_Mux_4to1,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/new/top_4.v,1773052576,verilog,,D:/Programing/VerilogProject/LogicEX/Lab1/Lab1.srcs/sources_1/imports/LL2024_Lab1/Practice3/tb_top_4.v,,top_4,,,../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,

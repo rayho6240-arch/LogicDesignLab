@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../Encoder_9.srcs/sources_1/new/Encoder_9.v" \
+"../../../../../../Lab2_testbench/practice3/lab2_9bits_encoder_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

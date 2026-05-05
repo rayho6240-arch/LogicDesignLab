@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed Apr 15 13:38:26 2026
+# Process ID         : 40908
+# Current directory  : D:/LogicDesignLab/Lab3/HA
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent40716 D:\LogicDesignLab\Lab3\HA\HA.xpr
+# Log file           : D:/LogicDesignLab/Lab3/HA/vivado.log
+# Journal file       : D:/LogicDesignLab/Lab3/HA\vivado.jou
+# Running On         : LAPTOP-L8B3PG7A
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 34046 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36194 MB
+# Available Virtual  : 13885 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/LogicDesignLab/Lab3/HA/HA.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {D:/LogicDesignLab/Lab3/Lab3_testbench/golden/golden_alu_8.data D:/LogicDesignLab/Lab3/Lab3_testbench/golden/golden_adder_8_ov.data D:/LogicDesignLab/Lab3/Lab3_testbench/golden/golden_CLL_4.data}
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_adder_8_ov.tcl
+run all
+close_sim
+file mkdir D:/LogicDesignLab/Lab3/HA/HA.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/LogicDesignLab/Lab3/HA/HA.srcs/sim_1/new/ALU_8.v w ]
+add_files -fileset sim_1 D:/LogicDesignLab/Lab3/HA/HA.srcs/sim_1/new/ALU_8.v
+update_compile_order -fileset sim_1

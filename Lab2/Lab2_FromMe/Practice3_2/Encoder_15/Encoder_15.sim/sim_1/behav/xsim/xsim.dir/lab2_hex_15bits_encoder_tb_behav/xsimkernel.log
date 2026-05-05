@@ -1,0 +1,7 @@
+Running: xsim.dir/lab2_hex_15bits_encoder_tb_behav/xsimk.exe -simmode gui -wdb lab2_hex_15bits_encoder_tb_behav.wdb -simrunnum 0 -socket 7763
+Design successfully loaded
+Design Loading Memory Usage: 10904 KB (Peak: 10904 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 13604 KB (Peak: 13604 KB)
+Simulation CPU Usage: 155 ms

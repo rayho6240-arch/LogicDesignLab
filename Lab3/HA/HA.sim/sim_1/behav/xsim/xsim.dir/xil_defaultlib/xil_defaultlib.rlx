@@ -1,0 +1,23 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/LogicDesignLab/Lab3/HA/HA.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/ALU_8.v,1776233698,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/Adder_8_OV.v,,ALU_8,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/Adder_8_OV.v,1776216906,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/FA.v,,Adder_8_OV,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_16.v,1776215273,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_4.v,,CLA_16,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_4.v,1776175710,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLL_4.v,,CLA_4,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLA_64.v,1776215328,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLL_4.v,,CLA_64,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/CLL_4.v,1776215286,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/PFA.v,,CLL_4,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/FA.v,1776156599,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/HA.v,,FA,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/HA.v,1776155787,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/PreOP.v,,HA,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/PFA.v,1776175727,verilog,,D:/LogicDesignLab/Lab3/Lab3_testbench/tb_CLA_4.v,,PFA,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/PreOP.v,1776232816,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/RCA_4.v,,PreOp,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/RCA_4.v,1776157508,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/RCA_8.v,,RCA_4,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/RCA_8.v,1776233692,verilog,,D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/checkOV.v,,RCA_8,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/HA/HA.srcs/sources_1/new/checkOV.v,1776216938,verilog,,D:/LogicDesignLab/Lab3/Lab3_testbench/tb_alu_8.v,,checkOV,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/Lab3_testbench/tb_CLA_4.v,1776155834,verilog,,,,tb_CLA_4,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/Lab3_testbench/tb_CLA_64.v,1776155834,verilog,,,,tb_CLA_64,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/Lab3_testbench/tb_RCA_8.v,1776155834,verilog,,,,tb_RCA_8,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/Lab3_testbench/tb_adder_8_ov.v,1776155834,verilog,,,,tb_adder_8_ov,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab3/Lab3_testbench/tb_alu_8.v,1776155834,verilog,,,,tb_alu_8,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,

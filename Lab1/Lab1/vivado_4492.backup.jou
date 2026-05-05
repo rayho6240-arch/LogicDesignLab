@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Mar 10 16:26:26 2026
+# Process ID         : 4492
+# Current directory  : C:/Lab1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent8392 C:\Lab1\Lab1.xpr
+# Log file           : C:/Lab1/vivado.log
+# Journal file       : C:/Lab1\vivado.jou
+# Running On         : rongx1227
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34037 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36185 MB
+# Available Virtual  : 29897 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Lab1/Lab1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_top_4.tcl
+run all

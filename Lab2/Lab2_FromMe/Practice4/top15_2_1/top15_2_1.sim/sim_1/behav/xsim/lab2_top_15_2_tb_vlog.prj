@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../../../Practice2_2/Decoder_7S2/Decoder_7S2.srcs/sources_1/new/Decoder_7S2.v" \
+"../../../../../../Practice3_2/Encoder_15/Encoder_15.srcs/sources_1/new/Encoder_15.v" \
+"../../../../top15_2_1.srcs/sources_1/new/top15_2_1.v" \
+"../../../../top15_2_1.srcs/sim_1/new/top15_2_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../HA.srcs/sources_1/new/CLA_16.v" \
+"../../../../HA.srcs/sources_1/new/CLA_4.v" \
+"../../../../HA.srcs/sources_1/new/CLA_64.v" \
+"../../../../HA.srcs/sources_1/new/CLL_4.v" \
+"../../../../HA.srcs/sources_1/new/PFA.v" \
+"../../../../../Lab3_testbench/tb_CLA_64.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

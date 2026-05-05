@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+----------------------
+-- Simulation Start --
+----------------------
+
+
+
+
+        ****************************    _._     _,-'""`-._        
+        **  Congratulations !!    **   (,-.`._,'(       |\`-/|     
+        **  Simulation1 PASS!!    **       `-.-' \ )-`( , o o)     
+        ****************************             `-    \`_`"'-    
+
+
+$finish called at time : 327680 ns : File "C:/logic system lab/Lab2/Lab2_P3/Lab2_P3.srcs/sources_1/imports/practice3/lab2_15bits_encoder_tb.v" Line 96
