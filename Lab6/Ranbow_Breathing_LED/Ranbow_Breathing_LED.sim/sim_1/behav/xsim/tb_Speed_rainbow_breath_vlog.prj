@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef" \
+"../../../../../BTN_DED.v" \
+"../../../../Ranbow_Breathing_LED.srcs/sources_1/new/Long_Press_Controller.v" \
+"../../../../Ranbow_Breathing_LED.srcs/sources_1/new/Speed_rainbow_breathing.v" \
+"../../../../Ranbow_Breathing_LED.srcs/sim_1/new/tb_Speed_rainbow_breath.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

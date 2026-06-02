@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/LogicDesignLab/Lab6/BTN_DED.v,1779440823,verilog,,D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sources_1/new/Long_Press_Controller.v,,BTN_DEB,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,,,,,,,
+D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sim_1/new/tb_OneRGB.v,1779420918,verilog,,,,tb_OneRGB,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sim_1/new/tb_Speed_rainbow_breath.v,1779433497,verilog,,,,tb_Speed_rainbow_breath,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sources_1/new/Long_Press_Controller.v,1779440691,verilog,,D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sources_1/new/Speed_rainbow_breathing.v,,Long_Press_Controller,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sources_1/new/Rainbow_Breathing_LED.v,1779433347,verilog,,D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sim_1/new/tb_OneRGB.v,,OneRGB,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,
+D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sources_1/new/Speed_rainbow_breathing.v,1779433697,verilog,,D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sim_1/new/tb_Speed_rainbow_breath.v,,Speed_rainbow_breath,,,../../../../../../../Applications/AMD_Vivado/2025.2/Vivado/data/rsb/busdef,,,,,

@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+開始模擬：模式 0 (最慢)
+按下 btn[0]：切換至模式 1
+按下 btn[0]：切換至模式 2
+模擬結束
+$finish called at time : 340100 ns : File "D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sim_1/new/tb_Speed_rainbow_breath.v" Line 53

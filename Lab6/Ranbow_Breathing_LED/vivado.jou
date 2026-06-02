@@ -1,0 +1,125 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri May 22 09:49:35 2026
+# Process ID         : 14280
+# Current directory  : D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent31692 D:\LogicDesignLab\Lab6\Ranbow_Breathing_LED\Ranbow_Breathing_LED.xpr
+# Log file           : D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/vivado.log
+# Journal file       : D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED\vivado.jou
+# Running On         : LAPTOP-L8B3PG7A
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 34046 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36194 MB
+# Available Virtual  : 18699 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse D:/LogicDesignLab/Lab6/BTN_DED.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sim_1/new/tb_OneRGB.v w ]
+add_files -fileset sim_1 D:/LogicDesignLab/Lab6/Ranbow_Breathing_LED/Ranbow_Breathing_LED.srcs/sim_1/new/tb_OneRGB.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_OneRGB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top OneRGB [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_OneRGB.tcl
+run all
+close_sim
+launch_simulation
+source tb_OneRGB.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_OneRGB/uut/cs}} 
+relaunch_sim
+close_sim
+launch_simulation
+source tb_OneRGB.tcl
+current_wave_config {Untitled 3}
+add_wave {{/tb_OneRGB/uut/cs}} 
+relaunch_sim
+close_sim
+launch_simulation
+source tb_OneRGB.tcl
+run 20000 us
+close_sim
+launch_simulation
+launch_simulation
+source tb_OneRGB.tcl
+run 20000 us
+current_wave_config {Untitled 5}
+add_wave {{/tb_OneRGB/uut}} 
+relaunch_sim
+run 20000 us
+close_sim
+launch_simulation
+source tb_OneRGB.tcl
+run 20000 us
+close_sim
+launch_simulation
+source tb_OneRGB.tcl
+run 20000 us
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Speed_rainbow_breath [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_Speed_rainbow_breath [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_Speed_rainbow_breath.tcl
+run 20000 us
+current_wave_config {Untitled 8}
+add_wave {{/tb_Speed_rainbow_breath/uut}} 
+relaunch_sim
+run 20000 us
+close_sim
+launch_simulation
+source tb_Speed_rainbow_breath.tcl
+run 20000 us
+current_wave_config {Untitled 9}
+add_wave {{/tb_Speed_rainbow_breath/uut}} 
+relaunch_sim
+run 20000 us
+relaunch_sim
+run 20000 us
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_Speed_rainbow_breath.tcl
+run 20000 us
+current_wave_config {Untitled 10}
+add_wave {{/tb_Speed_rainbow_breath/uut}} 
+relaunch_sim
+relaunch_sim
+run 20000 us
+close_sim

@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+----------------------
+-- Simulation Start --
+----------------------
+PASS: hit 12 moles
+----------------------
+--- Simulation End ---
+----------------------
+$finish called at time : 492 ns : File "D:/LogicDesignLab/lab7/src/tb/top_tb.v" Line 64

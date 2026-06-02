@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>16x8 Matrix Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            background-color: #f5f5f5;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        #editor-container {
+            background-color: #e0e0e0;
+            padding: 10px;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(8, 40px);
+            /* 自動列高，讓分隔線可適應 */
+            grid-auto-rows: min-content;
+            gap: 2px;
+            user-select: none; /* 防止拖曳時反白文字 */
+        }
+        .cell {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border: 1px inset #999;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+        .cell.active {
+            background-color: black;
+        }
+        .separator {
+            grid-column: 1 / -1;
+            height: 4px;
+            background-color: #333;
+            margin: 4px 0;
+            border-radius: 2px;
+        }
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+        button:hover {
+            background-color: #e9e9e9;
+        }
+        #status {
+            margin-top: 15px;
+            color: #555;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>16x8 Matrix Editor</h2>
+    <div id="editor-container">
+        <!-- 停用右鍵選單，以利右鍵擦除功能 -->
+        <div id="grid" oncontextmenu="return false;"></div>
+    </div>
+
+    <div class="controls">
+        <button id="saveBtn">存檔</button>
+        <button id="clearBtn">清空</button>
+    </div>
+    
+    <div id="status"></div>
+
+    <script>
+        const ROWS = 16;
+        const COLS = 8;
+        
+        // 初始化 16x8 的狀態陣列
+        const gridState = Array.from({ length: ROWS }, () => Array(COLS).fill(0));
+        
+        let isDrawing = false;
+        let drawVal = 1; // 1代表塗黑, 0代表擦白
+
+        const gridEl = document.getElementById('grid');
+        const statusEl = document.getElementById('status');
+
+        // 建立格子
+        function createGrid() {
+            gridEl.innerHTML = '';
+            for (let r = 0; r < ROWS; r++) {
+                for (let c = 0; c < COLS; c++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    cell.dataset.r = r;
+                    cell.dataset.c = c;
+                    
+                    // 滑鼠按下時開始繪圖
+                    cell.addEventListener('mousedown', (e) => {
+                        isDrawing = true;
+                        // 左鍵 e.button === 0, 右鍵 e.button === 2
+                        drawVal = (e.button === 2) ? 0 : 1; 
+                        updateCell(r, c, drawVal, cell);
+                    });
+                    
+                    // 滑鼠進入元素內時若在繪圖狀態，也一併更動狀態
+                    cell.addEventListener('mouseenter', (e) => {
+                        if (isDrawing) {
+                            updateCell(r, c, drawVal, cell);
+                        }
+                    });
+                    
+                    gridEl.appendChild(cell);
+                }
+                
+                // 第 7 行（上半部結束）加上視覺分隔線
+                if (r === 7) {
+                    const sep = document.createElement('div');
+                    sep.className = 'separator';
+                    gridEl.appendChild(sep);
+                }
+            }
+        }
+
+        function updateCell(r, c, val, cellEl) {
+            gridState[r][c] = val;
+            if (val === 1) {
+                cellEl.classList.add('active');
+            } else {
+                cellEl.classList.remove('active');
+            }
+        }
+
+        // 當滑鼠放開或離開視窗，停止繪畫
+        window.addEventListener('mouseup', () => { isDrawing = false; });
+        window.addEventListener('mouseleave', () => { isDrawing = false; });
+
+        // 清空按鈕事件
+        document.getElementById('clearBtn').addEventListener('click', () => {
+            for (let r = 0; r < ROWS; r++) {
+                for (let c = 0; c < COLS; c++) {
+                    gridState[r][c] = 0;
+                }
+            }
+            document.querySelectorAll('.cell').forEach(cell => cell.classList.remove('active'));
+            statusEl.textContent = 'Cleared.';
+        });
+
+        // 存檔按鈕事件
+        document.getElementById('saveBtn').addEventListener('click', () => {
+            let bits = [];
+            // 從左上到右下依序萃取 bit
+            for (let r = 0; r < ROWS; r++) {
+                for (let c = 0; c < COLS; c++) {
+                    bits.push(gridState[r][c].toString());
+                }
+            }
+            
+            // 因轉存 Hex 要求最高位元(MSB)在字串的最左側，所以反序
+            bits.reverse();
+            const binStr = bits.join('');
+            
+            // 轉換為 32 字元的 16 進位字串 (使用 BigInt 處理 128 bit)
+            const hexVal = BigInt('0b' + binStr).toString(16).padStart(32, '0');
+            
+            // 產生檔案並利用 <a> 標籤觸發下載
+            const blob = new Blob([hexVal + '\n'], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'matrix_data.txt'; // 預設檔名
+            document.body.appendChild(a);
+            a.click();
+            
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            statusEl.textContent = 'Saved to matrix_data.txt in Download folder.';
+        });
+
+        // 初始化
+        createGrid();
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/lab7/src/rtl/lfsr_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfsr_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/lab7/src/rtl/single_mole.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_mole
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/lab7/src/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/lab7/src/tb/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/LogicDesignLab/lab7/vivado_project/Whack-A-Mole.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
