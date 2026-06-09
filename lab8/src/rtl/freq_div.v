@@ -39,7 +39,7 @@ module freq_div (
         counter_100ms <= 23'b0; // Reset the counter
       end
 
-      if (counter_10ms == ``CYCLE_CNT_FOR_100MS/10 - 1)begin
+      if (counter_10ms == `CYCLE_CNT_FOR_100MS/10 - 1)begin
         move_pulse <=1'b1;
         counter_10ms <=23'b0;
       end 

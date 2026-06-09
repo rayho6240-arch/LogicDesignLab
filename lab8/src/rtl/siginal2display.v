@@ -2,23 +2,27 @@ module siginal2display(
     input [63:0] map,
     input clk_125000HZ,
     input rst,
-    output [15:0]upper_led_port,
-    output [15:0]lower_led_port
+    output [15:0]led_port 
 );
+//目前包含: 吃map, 旋轉, 刷屏, 根據刷屏資訊讀取data, 最後把data轉成led_port的訊號(對應陰陽)
+
 
     //把data讀進來，分割
-    reg [15:0] display_map [0:7];
+    reg [7:0] display_map [0:7];
     //integer i;
     integer row, col;
 
     always @(*) begin
         //旋轉90 度
-        for (row = 0; row < 15; row = row + 1) begin
+        
+        for (row = 0; row < 8; row = row + 1) begin
             for (col = 0; col < 8; col = col + 1) begin
-                display_map[row][col] = map[col*8 + (7-row)]; //注意矩陣的syntax //把col 變成列(參考註解掉的原邏輯)//從最後一col 往回讀，逆時針轉了90度。// 逆時針就是 map[(7-col)*8 + row] 
+                display_map[row][col] = map[(7-col)*8 + row]; //注意矩陣的syntax //把col 變成列(參考註解掉的原邏輯)//從最後一col 往回讀，逆時針轉了90度。// 順時針就是 map[col*8 + (7-row)] 
             end
         end
-        /*直接讀取
+
+        /*
+        //直接讀取
         for (i = 0; i < 8; i = i + 1) begin
             display_map[i] = map[i*8 +: 8]; //same as frame[j*8 + 7 ; j*8] //注意分號冒號
         end
@@ -54,42 +58,23 @@ module siginal2display(
             end
         end
     end
-
-
-
-    assign upper_led_port[0]  = row_display[5-1] ;
-    assign upper_led_port[1]  = row_display[7-1] ;
-    assign upper_led_port[2]  = col_display[2-1] ;
-    assign upper_led_port[3]  = col_display[3-1] ;
-    assign upper_led_port[4]  = row_display[8-1] ;
-    assign upper_led_port[5]  = col_display[5-1] ;
-    assign upper_led_port[6]  = row_display[6-1] ;
-    assign upper_led_port[7]  = row_display[3-1] ;
-    assign upper_led_port[8]  = row_display[1-1] ;
-    assign upper_led_port[9]  = col_display[4-1] ;
-    assign upper_led_port[10] = col_display[6-1] ;
-    assign upper_led_port[11] = row_display[4-1] ;
-    assign upper_led_port[12] = col_display[1-1] ;
-    assign upper_led_port[13] = row_display[2-1] ;
-    assign upper_led_port[14] = col_display[7-1] ;
-    assign upper_led_port[15] = col_display[8-1] ;
-
-
-    assign lower_led_port[0]  = row_display[5-1+8] ;
-    assign lower_led_port[1]  = row_display[7-1+8] ;
-    assign lower_led_port[2]  = col_display[2-1+8] ;
-    assign lower_led_port[3]  = col_display[3-1+8] ;
-    assign lower_led_port[4]  = row_display[8-1+8] ;
-    assign lower_led_port[5]  = col_display[5-1+8] ;
-    assign lower_led_port[6]  = row_display[6-1+8] ;
-    assign lower_led_port[7]  = row_display[3-1+8] ;
-    assign lower_led_port[8]  = row_display[1-1+8] ;
-    assign lower_led_port[9]  = col_display[4-1+8] ;
-    assign lower_led_port[10] = col_display[6-1+8] ;
-    assign lower_led_port[11] = row_display[4-1+8] ;
-    assign lower_led_port[12] = col_display[1-1+8] ;
-    assign lower_led_port[13] = row_display[2-1+8] ;
-    assign lower_led_port[14] = col_display[7-1+8] ;
-    assign lower_led_port[15] = col_display[8-1+8] ;
+    
+    //剛好適配 "左||右" 整排差
+    assign led_port[0]  = row_display[5-1] ;
+    assign led_port[1]  = row_display[7-1] ;
+    assign led_port[2]  = col_display[2-1] ;
+    assign led_port[3]  = col_display[3-1] ;
+    assign led_port[4]  = row_display[8-1] ;
+    assign led_port[5]  = col_display[5-1] ;
+    assign led_port[6]  = row_display[6-1] ;
+    assign led_port[7]  = row_display[3-1] ;
+    assign led_port[8]  = row_display[1-1] ;
+    assign led_port[9]  = col_display[4-1] ;
+    assign led_port[10] = col_display[6-1] ;
+    assign led_port[11] = row_display[4-1] ;
+    assign led_port[12] = col_display[1-1] ;
+    assign led_port[13] = row_display[2-1] ;
+    assign led_port[14] = col_display[7-1] ;
+    assign led_port[15] = col_display[8-1] ;
 
 endmodule

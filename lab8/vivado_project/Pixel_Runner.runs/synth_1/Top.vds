@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Tue Jun  9 18:06:53 2026
+# Process ID         : 26000
+# Current directory  : D:/LogicDesignLab/lab8/vivado_project/Pixel_Runner.runs/synth_1
+# Command line       : vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file           : D:/LogicDesignLab/lab8/vivado_project/Pixel_Runner.runs/synth_1/Top.vds
+# Journal file       : D:/LogicDesignLab/lab8/vivado_project/Pixel_Runner.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-L8B3PG7A
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 34046 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36194 MB
+# Available Virtual  : 16817 MB
+#-----------------------------------------------------------
+source Top.tcl -notrace
+create_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 525.535 ; gain = 218.973
+Command: read_checkpoint -auto_incremental -incremental D:/LogicDesignLab/lab8/vivado_project/Pixel_Runner.srcs/utils_1/imports/synth_1/practice1.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/LogicDesignLab/lab8/vivado_project/Pixel_Runner.srcs/utils_1/imports/synth_1/practice1.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18820
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1306.172 ; gain = 539.734
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-36] 'move_pulse' is not declared [D:/LogicDesignLab/lab8/src/rtl/freq_div.v:43]
+INFO: [Synth 8-10285] module 'freq_div' is ignored due to previous errors [D:/LogicDesignLab/lab8/src/rtl/freq_div.v:55]
+INFO: [Synth 8-9084] Verilog file 'D:/LogicDesignLab/lab8/src/rtl/freq_div.v' ignored due to errors
+ERROR: [Synth 8-12188] Failed to read verilog 'D:/LogicDesignLab/lab8/src/rtl/freq_div.v'
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 1418.641 ; gain = 652.203
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+10 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 1418.641 ; gain = 881.090
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  9 18:07:46 2026...

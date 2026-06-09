@@ -1,121 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1780579979">
-  <File Type="PA-TCL" Name="practice1.tcl"/>
-  <File Type="REPORTS-TCL" Name="practice1_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="practice1_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="practice1_opt.dcp"/>
-  <File Type="OPT-DRC" Name="practice1_drc_opted.rpt"/>
-  <File Type="OPT-UTIL" Name="practice1_utilization_opted.rpt"/>
-  <File Type="OPT-UTIL-PB" Name="practice1_utilization_opted.pb"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="practice1_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="practice1.hwdef"/>
-  <File Type="OPT-TIMING" Name="practice1_timing_summary_opted.rpt"/>
-  <File Type="OPT-RQA-PB" Name="practice1_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="practice1_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="practice1_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="practice1_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="practice1_placed.dcp"/>
-  <File Type="PLACE-IO" Name="practice1_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="practice1_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="practice1_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="practice1_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="practice1_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="practice1_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="practice1_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="practice1_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="practice1_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="practice1_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="practice1_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="practice1_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="practice1_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="practice1_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="practice1_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="practice1_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="practice1_routed_bb.dcp"/>
-  <File Type="ROUTE-UTIL" Name="practice1_utilization_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="practice1_utilization_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="practice1_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="practice1_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="practice1_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="practice1_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="practice1_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="practice1_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="practice1_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="practice1_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="practice1_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="practice1_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="practice1_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="practice1_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="practice1_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="practice1_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="practice1_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="practice1_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="practice1_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="practice1_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="practice1_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="practice1_rqs_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="practice1_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="practice1_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Top_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Top_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Top_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Top_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Top_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Top_bus_skew_postroute_physopted.rpx"/>
-  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="practice1.nts"/>
-  <File Type="NOC_SOLUTION_FILE" Name="practice1.ncr"/>
-  <File Type="BG-BIT" Name="practice1.bit"/>
-  <File Type="BG-BIN" Name="practice1.bin"/>
-  <File Type="BITSTR-MSK" Name="practice1.msk"/>
-  <File Type="BITSTR-RBT" Name="practice1.rbt"/>
-  <File Type="BITSTR-NKY" Name="practice1.nky"/>
-  <File Type="BITSTR-BMM" Name="practice1_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="practice1.mmi"/>
-  <File Type="PDI-FILE" Name="practice1.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="practice1_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="practice1_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="practice1.rcfi"/>
-  <File Type="CFI_FILE" Name="practice1.cfi"/>
-  <File Type="RNPI_FILE" Name="practice1.rnpi"/>
-  <File Type="RCDO-FILE" Name="practice1.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="practice1_markers.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="practice1_markers.rcdo"/>
-  <File Type="BOOT_RNPI_FILE" Name="practice1_boot.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="practice1_boot_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="practice1_pld.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="practice1_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="practice1_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="practice1_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="practice1_pld_unmask.rnpi"/>
-  <File Type="PL-RCDO-FILE" Name="practice1_pld.rcdo"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="practice1_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="practice1_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="practice1_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="practice1_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="practice1_pld_unmask.rcdo"/>
-  <File Type="NPI_FILE" Name="practice1.npi"/>
-  <File Type="RBD_FILE" Name="practice1.rbd"/>
-  <File Type="MMI-FILE" Name="practice1.mmi"/>
-  <File Type="BIF-FILE" Name="practice1.bif"/>
-  <File Type="BOOT-BIF-FILE" Name="practice1_boot.bif"/>
-  <File Type="PL-BIF-FILE" Name="practice1_pld.bif"/>
-  <File Type="LTX-FILE" Name="practice1.ltx"/>
-  <File Type="BOOT-LTX-FILE" Name="practice1_boot.ltx"/>
-  <File Type="PL-LTX-FILE" Name="practice1_pld.ltx"/>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1780999610">
+  <File Type="PA-TCL" Name="Top.tcl"/>
+  <File Type="REPORTS-TCL" Name="Top_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Top_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Top_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="Top_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="Top_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Top_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Top.hwdef"/>
+  <File Type="OPT-TIMING" Name="Top_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="Top_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="Top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Top_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="Top_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Top_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Top_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Top_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="Top_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="Top_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Top_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Top_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Top_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="Top_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="practice1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="practice1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="practice1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="practice1_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="practice1_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="practice1_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Top.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="Top.ncr"/>
+  <File Type="BG-BIT" Name="Top.bit"/>
+  <File Type="BG-BIN" Name="Top.bin"/>
+  <File Type="BITSTR-MSK" Name="Top.msk"/>
+  <File Type="BITSTR-RBT" Name="Top.rbt"/>
+  <File Type="BITSTR-NKY" Name="Top.nky"/>
+  <File Type="BITSTR-BMM" Name="Top_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Top.mmi"/>
+  <File Type="PDI-FILE" Name="Top.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Top_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Top_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Top.rcfi"/>
+  <File Type="CFI_FILE" Name="Top.cfi"/>
+  <File Type="RNPI_FILE" Name="Top.rnpi"/>
+  <File Type="RCDO-FILE" Name="Top.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="Top_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="Top_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="Top_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="Top_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="Top_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="Top_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="Top_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Top_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="Top_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="Top_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="Top_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="Top_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="Top_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Top_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="Top_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="Top.npi"/>
+  <File Type="RBD_FILE" Name="Top.rbd"/>
+  <File Type="MMI-FILE" Name="Top.mmi"/>
+  <File Type="BIF-FILE" Name="Top.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="Top_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="Top_pld.bif"/>
+  <File Type="LTX-FILE" Name="Top.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="Top_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="Top_pld.ltx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="practice1.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="practice1.sysdef"/>
-  <File Type="BG-BGN" Name="practice1.bgn"/>
-  <File Type="BG-DRC" Name="practice1.drc"/>
-  <File Type="RDI-RDI" Name="practice1.vdi"/>
+  <File Type="BITSTR-LTX" Name="Top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Top.sysdef"/>
+  <File Type="BG-BGN" Name="Top.bgn"/>
+  <File Type="BG-DRC" Name="Top.drc"/>
+  <File Type="RDI-RDI" Name="Top.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="practice1_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="practice1_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Top_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Top_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../src/rtl/Top.v">
+    <File Path="$PPRDIR/../src/rtl/practice1/freq_div_p1.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -123,15 +123,61 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../src/rtl/map.v">
+    <File Path="$PPRDIR/../src/rtl/practice1/map.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/practice1/siginal2display_p1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/practice1/practice1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/collider_layer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/player_layer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/backGround_layer.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../src/rtl/freq_div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/map_back.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -145,7 +191,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../src/rtl/practice1.v">
+    <File Path="$PPRDIR/../src/rtl/Top.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -154,13 +200,12 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="practice1"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="Top"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../src/constrain/PYNQ-Z2 v1.0.xdc">
+    <File Path="$PPRDIR/../src/constrain/PYNQZ2.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

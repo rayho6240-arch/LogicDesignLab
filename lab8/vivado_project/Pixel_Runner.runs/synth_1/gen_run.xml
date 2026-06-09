@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1780579979" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/practice1.dcp">
-  <File Type="PA-TCL" Name="practice1.tcl"/>
-  <File Type="REPORTS-TCL" Name="practice1_reports.tcl"/>
-  <File Type="RDS-RDS" Name="practice1.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="practice1_drc_synth.rpt"/>
-  <File Type="RDS-UTIL" Name="practice1_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="practice1_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="practice1.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="practice1_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="practice1_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1780999610" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/practice1.dcp">
+  <File Type="PA-TCL" Name="Top.tcl"/>
+  <File Type="REPORTS-TCL" Name="Top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Top.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="Top_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../src/rtl/Top.v">
+    <File Path="$PPRDIR/../src/rtl/practice1/freq_div_p1.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -19,15 +19,61 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../src/rtl/map.v">
+    <File Path="$PPRDIR/../src/rtl/practice1/map.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/practice1/siginal2display_p1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/practice1/practice1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/collider_layer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/player_layer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/backGround_layer.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../src/rtl/freq_div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/rtl/map_back.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -41,7 +87,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../src/rtl/practice1.v">
+    <File Path="$PPRDIR/../src/rtl/Top.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -50,13 +96,12 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="practice1"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="Top"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../src/constrain/PYNQ-Z2 v1.0.xdc">
+    <File Path="$PPRDIR/../src/constrain/PYNQZ2.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

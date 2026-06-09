@@ -6,28 +6,19 @@ module practice1(
 );
 
     wire clk_out;
-    freq_div  freqD1(
+    freq_div_p1  freqD1(
         .clk_in(clk),
         .rst(rst),
         .clk_out(clk_out)
     );
 
     wire [63:0] upper_frame;
-    localparam [63:0] upper_pacman_0 = {
-        8'b00111100,
-        8'b01000100, 
-        8'b10001000, 
-        8'b10010001,
-        8'b10001000,
-        8'b01000100,
-        8'b00111000,
-        8'b00000000
-    };
-    assign upper_frame = upper_pacman_0;
-    
+    map_p1 MAP (
+        .upper_frame(upper_frame)
+    );
 
 
-    siginal2display S2D(
+    siginal2display_p1 S2D(
         .map(upper_frame),
         .clk_125000HZ(clk_out),
         .rst(rst),

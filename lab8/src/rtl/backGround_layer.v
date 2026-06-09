@@ -11,10 +11,11 @@ module backGround_layer(
         .clk_in(clk),
         .rst(rst),
         .clk_out(clk_out),
-        .scroll_pulse(scroll_pulse)
+        .scroll_pulse(scroll_pulse),
+        .move_pulse()
     );
 
-
+/*
     localparam [63:0] upper_pacman_0 = {
         8'b00100100,
         8'b00100100, 
@@ -43,9 +44,18 @@ module backGround_layer(
         8'b00000000, 
         8'b00100100
     };
+*/
 
 
-//跑道移動的邏輯寫在外面，不要跟S2D搞混了(S2D 的刷頻是為了讓畫面完善處理結構的問題，跟跑道移動的邏輯是分開的)
+wire upper_pacman_0 , lower_pacman_0, redun;
+map_back MAP_back (
+    .upper_frame(upper_pacman_0),
+    .lower_frame(lower_pacman_0),
+    .redun(redun)
+);
+
+
+//跑道移動的邏輯寫在這裡，不要跟S2D搞混了(S2D 的刷頻是為了讓畫面完善處理結構的問題，跟跑道移動的邏輯是分開的)
     reg [159 : 0] vram ;
     always@(posedge clk)begin
 

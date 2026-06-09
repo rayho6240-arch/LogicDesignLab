@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\LogicDesignLab\lab8\vivado_project\Pixel_Runner.runs\impl_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 沒有使用權限

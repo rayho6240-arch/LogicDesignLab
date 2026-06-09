@@ -26,11 +26,11 @@ module player_layer(
         8'b00000000, 
         8'b00011000,
         8'b00011000,
-        8'b00011000,
+        8'b00011000
     };
 
 //跑道移動的邏輯寫在外面，不要跟S2D搞混了(S2D 的刷頻是為了讓畫面完善處理結構的問題，跟跑道移動的邏輯是分開的)
-    reg [63 : 0] vram_player ;
+    reg [63 : 0] vram ;
     reg [1:0] count ;
  
     always@(posedge clk)begin
